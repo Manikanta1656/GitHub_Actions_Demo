@@ -1,0 +1,11 @@
+name: 01-Buliding-Blocks
+
+on:
+    push
+
+jobs:
+    echo-world:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo Hello World
+              run: echo "Hello, World!"
